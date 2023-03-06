@@ -1,24 +1,31 @@
 .logo {
-    background-color: bisque;
+    background-color: yellow;
     animation-name: logo;
     animation-duration: 3s;
     animation-iteration-count: infinite;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    font-size: 40px;
 }
 
 @keyframes logo {
     0% {
         transform: rotate(90deg);
+        border-radius: 100px;
     }
 
     25% {
         transform: rotate(180deg);
+        border-radius: 75px;
     }
 
     50% {
         transform: rotate(270deg);
+        border-radius: 50px;
     }
 
     100% {
         transform: rotate(360deg);
+        background-color: white;
     }
 }
